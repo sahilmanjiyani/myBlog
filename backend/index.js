@@ -30,9 +30,9 @@ const allowedExt = [
     if (allowedExt.filter(ext => req.url.indexOf(ext) > 0).length > 0) {
       res.sendFile(path.resolve(`public/${req.url}`));
     } else {
-      res.sendFile(path.resolve('public/index.html'));
+      res.sendFile(path.resolve(path.join(__dirname + 'public/index.html')));
     }
   });
 
-var server = app.listen(1234);
+var server = app.listen(8080);
 

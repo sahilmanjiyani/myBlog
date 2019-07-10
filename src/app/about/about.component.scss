@@ -1,0 +1,76 @@
+.about-component {
+
+    .intro {
+        background-color: #ffffff;
+        padding: 3em 0 1.5em;
+        h1 {
+            font-family:'Elianto', sans-serif;
+            font-size: 3em;
+        }
+    }
+    
+    .breadcrumbs {
+        background-color: #32383e;
+        color: white;
+        padding: 0.23em 0;
+    }
+
+    .comp-body {
+        padding: 3.5em 0;
+        .content {
+            background-color: #ffffff;
+            display: inline-block;
+            width: 70%;
+            .skills {
+                .tech-header{
+                    h3{
+                        margin-bottom: 1em;
+                    }
+                }
+                .tech-progress-bar {
+                    width: 60%;
+                    .progress-bar {
+                        padding: 0.5em 0;
+                        display: flex;
+                        h4 {
+                            width: 25%;
+                            padding: 0;
+                        }
+                        mat-progress-bar {
+                            align-self: center;
+                            margin: 0 1em;
+                        }
+    
+                    }
+                }
+            }
+            
+            .tech-logos {
+                .stack-header{
+                    h3{
+                       padding: 1em 0;
+                    }
+                }
+                .tech-logo-icons {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    fa-icon {
+                        font-size: 1.8em;
+                        padding: 1.5em;
+                    }
+                }
+            }    
+        }   
+        .aside {
+            width: 24%;
+            display: inline-block;
+            float: right;
+            background-color: #ffffff;
+        }
+    }
+    
+}
+
+
+  

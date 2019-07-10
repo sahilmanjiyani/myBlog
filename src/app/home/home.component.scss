@@ -1,0 +1,114 @@
+.home-component {
+    background-color: #ffffff;
+    section {
+        padding-bottom: 3em;
+    }
+    .intro {
+        padding-top: 2em;
+        .intro-container {
+            display: flex;
+            .intro-content {
+                width: 50%;
+                display: flex;
+                align-self: center;
+                background-image: linear-gradient(to right, #f5f5f5, white);
+                padding: 1em;
+                .heading {
+                    h1 {
+                        font-size: 2.3em;
+                    }
+                }
+                .details {
+                    ul {
+                        margin-top: 0.3em;
+                        li {
+                            display: inline;
+                            margin-right: 1em;
+                            i {
+                                font-size: 1.3em;
+                            }
+                        }
+    
+                    }
+                }
+            }
+            .intro-image {
+                width: 50%;
+                    img {
+                        width: 40%;
+                        border-radius: 50%;
+                        border: 5px solid #ececec;
+                        margin: auto;
+                        display: block;
+                    } 
+            }
+        }
+    }
+    .my-expertise {
+        .expertise-header {
+            h2 {
+                text-align: center;
+                margin-bottom: 0.2em;
+            }
+        }
+        .expertise-card {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.4em 0;
+            mat-card {
+                width: 30%;
+                display: inline-block;
+                mat-card-content {
+                    padding: 0 0.7em;
+                    h4 {
+                        margin: 1em 0;
+                        font-size: 1.2em;
+                    }
+                    fa-icon.bullseye {
+                        color: #3f65f3;
+                    }
+                    fa-icon.code {
+                        color: #ee4e23;
+                    }
+                    fa-icon.terminal {
+                        color: #5ec127;
+                    }
+                }
+            }
+        }
+       
+    }
+    .blog-compartment {
+        .blog-header {
+            h2 {
+                text-align: center;
+                margin-bottom: 0.2em;
+            }
+        }
+        .blog-cards {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.4em 0;
+            mat-card {
+                width: 30%;
+                display: inline-block;
+            }
+        }
+    }
+    .project-compartment {
+        .project-header {
+            h2 {
+                text-align: center;
+                margin-bottom: 0.2em;
+            }
+        }
+    }
+    .recommendation-compartment {
+        .recommendation-header {
+            h2 {
+                text-align: center;
+                margin-bottom: 0.2em;
+            }
+        }
+    }
+}

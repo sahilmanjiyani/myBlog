@@ -1,0 +1,63 @@
+.blog-component {
+    .intro {
+        background-color: #ffffff;
+        padding: 3em 0 1.5em;
+        h1 {
+            font-family:'Elianto', sans-serif;
+            font-size: 3em;
+        }
+    }
+    
+    .breadcrumbs {
+        background-color: #32383e;
+        color: white;
+        padding: 0.23em 0;
+    }
+
+    .comp-body {
+        padding: 3.5em 0;   
+        .content {
+            width: 70%;
+            display: inline-block;
+            mat-accordion{
+                mat-expansion-panel{
+                    margin-bottom: 0.6em;
+                    mat-expansion-panel-header{
+                        height: unset !important;
+                        mat-panel-title{
+                            height: unset;
+                            padding: 0.5em;
+                            max-height: 8em;
+                            span {
+                                align-self: center;
+                                font-size: 1.6em;
+                                padding: 0 1em;
+                            }
+                            img{
+                                max-width: 30%;
+                                border-radius: 7%;
+                                border: 1px solid #ececec;
+                            }
+                        }
+                        mat-panel-description {
+                            align-self: center;
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+        .aside {
+            width: 28%;
+            float: right;
+            background-color: #ffffff;
+            section{
+                padding: 1em;
+            }
+        }
+    }
+    
+}
+
+  

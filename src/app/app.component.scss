@@ -2,6 +2,7 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0px 10px 18px -13px rgba(0,0,0,0.75);
+    z-index: 1;
     .header-container {
         background-color: #f5f5f5;
         padding: 0.8em 0;

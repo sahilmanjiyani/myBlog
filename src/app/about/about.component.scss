@@ -52,19 +52,27 @@
                     }
                 }
                 .tech-logo-icons {
-                    display: flex;
                     flex-wrap: wrap;
                     justify-content: space-around;
-                    fa-icon {
-                        font-size: 1.8em;
-                        padding: 1.5em;
+                    display: flex;
+                    img {
+                        width: 6em;
+                        margin: 2em ;
                     }
                 }
             }    
+
+            .exp {
+                h4 {
+                    margin-top: 1em;
+                }
+                .exp-card {
+                    margin: 1em 0;
+                }
+            }
         }   
         .aside {
             width: 24%;
-            display: inline-block;
             float: right;
             background-color: #ffffff;
         }
